@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/selenium-framework-doc/\",\"lang\":\"es-ES\",\"title\":\"Selenium\",\"description\":\"Documentación de Selenium Framework TSOFT\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"images/logo.png\"}]],\"locales\":{}}")
