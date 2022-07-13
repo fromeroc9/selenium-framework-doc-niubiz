@@ -26,7 +26,7 @@ Al ejecutar en cli podemos elegir que feature a ejecutar para esta prueba estamo
 
 ## Reporte General
 
-Reporte generado despues de la ejecución CLI o GUI [Demo](https://fromeroc9.github.io/selenium-framework-doc/reports/generate/index.html/)
+Reporte generado despues de la ejecución CLI o GUI [Demo](https://fromeroc9.github.io/selenium-framework-doc/reports/generate/index.html)
 
 ![Reporte](/images/resultados/reporte.png)
 

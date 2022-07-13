@@ -12,7 +12,7 @@
 
 ### 3. Reporte
 
-Report de la ejecución [Demo](https://fromeroc9.github.io/selenium-framework-doc/reports/generate/index.html/)
+Report de la ejecución [Demo](https://fromeroc9.github.io/selenium-framework-doc/reports/generate/index.html)
 
 ![Caso Real](/images/caso/3.png)
 
