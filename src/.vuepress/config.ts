@@ -12,6 +12,8 @@ export default defineUserConfig({
 	theme: defaultTheme({
 		logo: '/images/logo-texto.png',
 		sidebar: sidebar,
+		logoDark: '/images/logo_white.png',
+    	colorMode: 'light'
 	}),
 	dest: "docs",
 	plugins: [
