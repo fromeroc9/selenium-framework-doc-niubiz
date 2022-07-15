@@ -1,6 +1,7 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-b84f7630","/guide/actions.html",{"title":"BaseClass"},["/guide/actions","/guide/actions.md"]],
+  ["v-37b4e53c","/guide/base.html",{"title":"BunTest 💣"},["/guide/base","/guide/base.md"]],
   ["v-45ec6b1a","/guide/caso.html",{"title":"Prueba Real"},["/guide/caso","/guide/caso.md"]],
   ["v-369d6817","/guide/empezar.html",{"title":""},["/guide/empezar","/guide/empezar.md"]],
   ["v-261504d8","/guide/overview.html",{"title":""},["/guide/overview","/guide/overview.md"]],
