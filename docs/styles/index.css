@@ -1,6 +1,6 @@
 :root {
-    --c-brand: #03a9f4;
-    --c-brand-light: #03a9f4;
+    --c-brand: #03a9f4 !important;
+    --c-brand-light: #03a9f4 !important;
     --c-bg: #ffffff;
     --c-bg-light: #f3f4f5;
     --c-bg-lighter: #eeeeee;
@@ -15,7 +15,7 @@
     --c-text-quote: #999999;
     --c-border: #eaecef;
     --c-border-dark: #dfe2e5;
-    --c-tip: #03a9f4;
+    --c-tip: #03a9f4 !important;
     --c-tip-bg: var(--c-bg-light);
     --c-tip-title: var(--c-text);
     --c-tip-text: var(--c-text);
