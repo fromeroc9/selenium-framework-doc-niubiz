@@ -9,8 +9,8 @@ export default defineUserConfig({
 	description: 'Documentación de Selenium Framework',
 	open: false,
 	head: [
-		['link', { rel: 'icon', href: 'images/favicon.png' }],
-		['link', { rel: "stylesheet", href: 'styles/index.css'}]
+		['link', { rel: 'icon', href: '/selenium-framework-doc-niubiz/images/favicon.png' }],
+		['link', { rel: "stylesheet", href: '/selenium-framework-doc-niubiz/styles/index.css'}]
 	],
 	theme: defaultTheme({
 		logo: '/images/logo-texto.png',
