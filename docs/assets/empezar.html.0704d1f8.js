@@ -1,4 +1,4 @@
-import{_ as e,o as a,c as n,d as s}from"./app.0d2d251c.js";var i="/selenium-framework-doc-niubiz/images/ejecucion/gui.png";const t={},r=s(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
+import{_ as e,o as a,c as n,d as s}from"./app.4c43bd84.js";var i="/selenium-framework-doc-niubiz/images/ejecucion/gui.png";const t={},r=s(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
 <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span> <span class="token operator">=</span> Usuario que tenga acceso al repositorio 
 
 <span class="token function">git</span> clone https://<span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>@bitbucket.org/VisaNet_TI/framework-selenium.git
