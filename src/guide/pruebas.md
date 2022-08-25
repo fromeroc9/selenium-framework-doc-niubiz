@@ -33,11 +33,11 @@ Feature: Authentication
 
 ### 2. Armar los Steps
 
-Ubicación: `src/main/java/frontend/steps`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/steps`
 
 ```java
 //AuthenticationStep.java
-package com.tsoft.bot.frontend.steps;
+package com.niubiz.bot.frontend.steps;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -82,13 +82,13 @@ En este ejemplo debemos armar los object del sitio web y de la data en excel
 
 **Excel Objects**
 
-Ubicación: `src/main/java/frontend/pages/objects`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/pages/objects`
 
 Se debe indicar que tipo de valor vas a recibir o estar declarando en el excel.
 
 ```java
 //ExcelObjects.java
-package com.tsoft.bot.frontend.pages.objects;
+package com.niubiz.bot.frontend.pages.objects;
 
 public class ExcelObjects {
 
@@ -102,13 +102,13 @@ public class ExcelObjects {
 
 **Web Locator**
 
-Ubicación: `src/main/java/frontend/pages/objects`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/pages/objects`
 
 Por cada pagina que se va navegando se va creando nueva archivo ts para guardar los locator. Si desea trabajar todo en un solo archivo para guardar todos sus locator solo recordar el orden.
 
 ```java
 //HomeObjects.java
-package com.tsoft.bot.frontend.pages.objects;
+package com.niubiz.bot.frontend.pages.objects;
 
 import org.openqa.selenium.By;
 
@@ -119,7 +119,7 @@ public class HomeObjects {
 
 }
 //LoginObjects.java
-package com.tsoft.bot.frontend.pages.objects;
+package com.niubiz.bot.frontend.pages.objects;
 
 import org.openqa.selenium.By;
 
@@ -134,18 +134,18 @@ public class LoginObjects {
 
 ### 5. Secuencia del flujo programado
 
-Ubicación: `src/main/java/frontend/pages`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/pages`
 
 ```java
-package com.tsoft.bot.frontend.pages.pages;
+package com.niubiz.bot.frontend.pages.pages;
 
-import com.tsoft.bot.frontend.base.BaseClass;
-import com.tsoft.bot.frontend.helpers.Hook;
-import com.tsoft.bot.frontend.pages.objects.ExcelObjects;
-import com.tsoft.bot.frontend.pages.objects.HomeObjects;
-import com.tsoft.bot.frontend.pages.objects.LoginObjects;
-import com.tsoft.bot.frontend.utility.ExcelReader;
-import com.tsoft.bot.frontend.utility.GenerateWord;
+import com.niubiz.bot.frontend.base.BaseClass;
+import com.niubiz.bot.frontend.helpers.Hook;
+import com.niubiz.bot.frontend.pages.objects.ExcelObjects;
+import com.niubiz.bot.frontend.pages.objects.HomeObjects;
+import com.niubiz.bot.frontend.pages.objects.LoginObjects;
+import com.niubiz.bot.frontend.utility.ExcelReader;
+import com.niubiz.bot.frontend.utility.GenerateWord;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -248,12 +248,12 @@ public class AuthenticationPage extends BaseClass {
 
 ### 6. Añadimos a la secuencia programada a los steps
 
-Ubicación: `src/main/java/frontend/steps`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/steps`
 
 ```java
-package com.tsoft.bot.frontend.steps;
+package com.niubiz.bot.frontend.steps;
 
-import com.tsoft.bot.frontend.pages.pages.AuthenticationPage;
+import com.niubiz.bot.frontend.pages.pages.AuthenticationPage;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -312,11 +312,11 @@ Feature: Authentication
 
 ### 2. Armar los Steps
 
-Ubicación: `src/main/java/frontend/steps`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/steps`
 
 ```java
 //TestApiStep.java
-package com.tsoft.bot.frontend.steps;
+package com.niubiz.bot.frontend.steps;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -356,13 +356,13 @@ En este ejemplo debemos armar los locadores de la data en excel
 
 **Excel Objects**
 
-Ubicación: `src/main/java/frontend/pages/objects`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/pages/objects`
 
 Se debe indicar que tipo de valor vas a recibir o estar declarando en el excel.
 
 ```java
 //ExcelObjects.java
-package com.tsoft.bot.frontend.pages.objects;
+package com.niubiz.bot.frontend.pages.objects;
 
 public class ExcelObjects {
 
@@ -379,11 +379,11 @@ public class ExcelObjects {
 
 ### 5. Armar los Model
 
-Ubicación: `src/main/java/frontend/collections/model`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/collections/model`
 
 ```java
 //PostsModel.java
-package com.tsoft.bot.frontend.collections.model;
+package com.niubiz.bot.frontend.collections.model;
 
 public class PostsModel {
 
@@ -418,12 +418,12 @@ public class PostsModel {
 
 ### 6. Armar la API
 
-Ubicación: `src/main/java/frontend/collections/api`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/collections/api`
 
 ```java
-package com.tsoft.bot.frontend.collections.api;
+package com.niubiz.bot.frontend.collections.api;
 
-import com.tsoft.bot.frontend.collections.model.PostsModel;
+import com.niubiz.bot.frontend.collections.model.PostsModel;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
@@ -504,16 +504,16 @@ public class Posts {
 
 ### 7. Armar los Request
 
-Ubicación: `src/main/java/frontend/collections/request`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/collections/request`
 
 ```java
-package com.tsoft.bot.frontend.collections.request;
+package com.niubiz.bot.frontend.collections.request;
 
-import com.tsoft.bot.frontend.base.BaseClass;
-import com.tsoft.bot.frontend.collections.api.Posts;
-import com.tsoft.bot.frontend.collections.model.PostsModel;
-import com.tsoft.bot.frontend.pages.objects.ExcelObjects;;
-import com.tsoft.bot.frontend.utility.ExcelReader;
+import com.niubiz.bot.frontend.base.BaseClass;
+import com.niubiz.bot.frontend.collections.api.Posts;
+import com.niubiz.bot.frontend.collections.model.PostsModel;
+import com.niubiz.bot.frontend.pages.objects.ExcelObjects;;
+import com.niubiz.bot.frontend.utility.ExcelReader;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import java.util.HashMap;
@@ -576,11 +576,11 @@ public class PostsApi extends BaseClass {
 
 ### 8. Añadimos a la secuencia programada a los steps
 
-Ubicación: `src/main/java/frontend/steps`
+Ubicación: `src/main/java/com.niubiz.bot.fronted/steps`
 
 ```java
-package com.tsoft.bot.frontend.steps;
-import com.tsoft.bot.frontend.collections.request.PostsApi;
+package com.niubiz.bot.frontend.steps;
+import com.niubiz.bot.frontend.collections.request.PostsApi;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;

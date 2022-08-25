@@ -1,6 +1,6 @@
 <template><div><h1 id="baseclass" tabindex="-1"><a class="header-anchor" href="#baseclass" aria-hidden="true">#</a> BaseClass</h1>
 <p>Forma simplificada de selenium para realizar acciones como type, clear, click, select, value, sleep, read, write.</p>
-<p><strong>Ubicación:</strong> <code v-pre>cypress/e2e/actions/Actions.ts</code></p>
+<p><strong>Ubicación:</strong> <code v-pre>com.niubiz.bot.fronted/base</code></p>
 <table>
 <thead>
 <tr>

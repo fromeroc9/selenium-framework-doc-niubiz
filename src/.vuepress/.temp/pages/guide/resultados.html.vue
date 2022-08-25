@@ -13,7 +13,7 @@
 <p><img src="/images/resultados/cli/1.png" alt="Ejecución CLI"></p>
 <p><img src="/images/resultados/cli/2.png" alt="Ejecución CLI"></p>
 <h2 id="reporte-general" tabindex="-1"><a class="header-anchor" href="#reporte-general" aria-hidden="true">#</a> Reporte General</h2>
-<p>Reporte generado despues de la ejecución CLI o GUI <a href="https://fromeroc9.github.io/selenium-framework-doc/reports/generate/index.html" target="_blank" rel="noopener noreferrer">Demo<ExternalLinkIcon/></a></p>
+<p>Reporte generado despues de la ejecución CLI o GUI <a href="https://fromeroc9.github.io/selenium-framework-doc-niubiz/reports/generate/index.html" target="_blank" rel="noopener noreferrer">Demo<ExternalLinkIcon/></a></p>
 <p><img src="/images/resultados/reporte.png" alt="Reporte"></p>
 <h2 id="video-de-ejecucion" tabindex="-1"><a class="header-anchor" href="#video-de-ejecucion" aria-hidden="true">#</a> Video de Ejecución</h2>
 <h3 id="authentication-feature-1" tabindex="-1"><a class="header-anchor" href="#authentication-feature-1" aria-hidden="true">#</a> Authentication.feature</h3>

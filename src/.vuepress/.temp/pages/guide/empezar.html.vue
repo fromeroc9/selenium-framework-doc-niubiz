@@ -1,9 +1,11 @@
 <template><div><h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalación</h2>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># clone project</span>
-<span class="token function">git</span> clone https://github.com/example/web-automation-framework
+<span class="token operator">&lt;</span>username<span class="token operator">></span> <span class="token operator">=</span> Usuario que tenga acceso al repositorio 
+
+<span class="token function">git</span> clone https://<span class="token operator">&lt;</span>username<span class="token operator">></span>@bitbucket.org/VisaNet_TI/framework-selenium.git
 <span class="token comment"># access folder</span>
 <span class="token builtin class-name">cd</span> web-automation-framework
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ejecucion-gui" tabindex="-1"><a class="header-anchor" href="#ejecucion-gui" aria-hidden="true">#</a> Ejecución GUI</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ejecucion-gui" tabindex="-1"><a class="header-anchor" href="#ejecucion-gui" aria-hidden="true">#</a> Ejecución GUI</h2>
 <p>Ejecución de pruebas a travez de una interfaz web.</p>
 <p>Podemos ejecuctar los diferentes escenario por separado o inicializar todo el feature para su ejecución.</p>
 <p><img src="/images/ejecucion/gui.png" alt="Ejecución"></p>
@@ -13,17 +15,17 @@
 
 <span class="token comment"># To run scenarios with @debug1 and @debug2:</span>
 <span class="token comment"># Old version of Cucumber-jvm:</span>
-mvn <span class="token builtin class-name">test</span> -Dcucumber.options<span class="token operator">=</span><span class="token string">"--tags @debug1 --tags @debug2"</span>
+mvn <span class="token builtin class-name">test</span> <span class="token string">"-Dcucumber.options=--tags @debug1 --tags @debug2"</span>
 
 <span class="token comment"># Actual version of Cucumber-jvm:</span>
-mvn <span class="token builtin class-name">test</span> -Dcucumber.options<span class="token operator">=</span><span class="token string">"--tags '@debug1 and @debug2'"</span>
+mvn <span class="token builtin class-name">test</span> <span class="token string">"-Dcucumber.options=--tags '@debug1 and @debug2'"</span>
 
 <span class="token comment"># To run scenarios with @debug1 or @debug2:</span>
 <span class="token comment">#Old version of Cucumber-jvm:</span>
-mvn <span class="token builtin class-name">test</span> -Dcucumber.options<span class="token operator">=</span><span class="token string">"--tags @debug1, @debug2"</span>
+mvn <span class="token builtin class-name">test</span> <span class="token string">"-Dcucumber.options=--tags @debug1, @debug2"</span>
 
 <span class="token comment">#Actual version of Cucumber-jvm:</span>
-mvn <span class="token builtin class-name">test</span> -Dcucumber.options<span class="token operator">=</span><span class="token string">"--tags '@debug1 or @debug2'"</span>
+mvn <span class="token builtin class-name">test</span> <span class="token string">"-Dcucumber.options=--tags '@debug1 or @debug2'"</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="estructura-de-proyecto" tabindex="-1"><a class="header-anchor" href="#estructura-de-proyecto" aria-hidden="true">#</a> Estructura de Proyecto</h2>
 <p>Estructura de carpeta del framework trabajado.</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>┌─ src

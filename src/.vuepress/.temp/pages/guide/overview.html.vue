@@ -1,4 +1,5 @@
-<template><div><h2 id="introduccion" tabindex="-1"><a class="header-anchor" href="#introduccion" aria-hidden="true">#</a> Introducción</h2>
+<template><div><h1 id="vision-general" tabindex="-1"><a class="header-anchor" href="#vision-general" aria-hidden="true">#</a> Visión General</h1>
+<h2 id="introduccion" tabindex="-1"><a class="header-anchor" href="#introduccion" aria-hidden="true">#</a> Introducción</h2>
 <p>Este proyecto abarca a la utilización del framework Selenium para las pruebas de testing, creando producto util y usable para desarrollar diferentes tipos de pruebas.</p>
 <p>Un framework de automatización nos permite tener un conjunto de pautas o reglas para la generación de casos de prueba y estandarizar la ejecución de pruebas tales como UI, API,entre otras.</p>
 <p>El propósito de crear esta la estructura de trabajo es apoyar a los QA cuando empiecen a automatizar, permitiendo la creaciones de scripts para brindar soluciones.</p>

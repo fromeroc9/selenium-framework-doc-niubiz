@@ -2,7 +2,9 @@
 
 ```bash
 # clone project
-git clone https://github.com/example/web-automation-framework
+<username> = Usuario que tenga acceso al repositorio 
+
+git clone https://<username>@bitbucket.org/VisaNet_TI/framework-selenium.git
 # access folder
 cd web-automation-framework
 ```
@@ -25,17 +27,17 @@ cd web-automation-framework
 
 # To run scenarios with @debug1 and @debug2:
 # Old version of Cucumber-jvm:
-mvn test -Dcucumber.options="--tags @debug1 --tags @debug2"
+mvn test "-Dcucumber.options=--tags @debug1 --tags @debug2"
 
 # Actual version of Cucumber-jvm:
-mvn test -Dcucumber.options="--tags '@debug1 and @debug2'"
+mvn test "-Dcucumber.options=--tags '@debug1 and @debug2'"
 
 # To run scenarios with @debug1 or @debug2:
 #Old version of Cucumber-jvm:
-mvn test -Dcucumber.options="--tags @debug1, @debug2"
+mvn test "-Dcucumber.options=--tags @debug1, @debug2"
 
 #Actual version of Cucumber-jvm:
-mvn test -Dcucumber.options="--tags '@debug1 or @debug2'"
+mvn test "-Dcucumber.options=--tags '@debug1 or @debug2'"
 ```
 
 ## Estructura de Proyecto

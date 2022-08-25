@@ -2,7 +2,7 @@
 
 Forma simplificada de selenium para realizar acciones como type, clear, click, select, value, sleep, read, write.
 
-**Ubicación:** `cypress/e2e/actions/Actions.ts`
+**Ubicación:** `com.niubiz.bot.fronted/base`
 
 | Opción   | Default | Descripción |
 |----------|---------|-------------|
@@ -394,5 +394,3 @@ protected void stepFail(WebDriver driver, String descripcion) throws Exception {
 ```java
 stepFail(driver, "Paso 3 finalizado con errores")
 ```
-
-

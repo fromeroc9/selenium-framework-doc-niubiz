@@ -5,18 +5,18 @@
 <h2 id="requisitos" tabindex="-1"><a class="header-anchor" href="#requisitos" aria-hidden="true">#</a> Requisitos</h2>
 <p>Deben descargar los siguiente archivos para el proyecto <code v-pre>web-automation-framework</code></p>
 <p>BunTest.java, BunEnv.java, Hook.java</p>
-<p><a href="https://fromeroc9.github.io/selenium-framework-doc/compress/BunTest.zip" target="_blank" rel="noopener noreferrer">Descargar Archivos<ExternalLinkIcon/></a></p>
+<p><a href="https://fromeroc9.github.io/selenium-framework-doc-niubiz/compress/BunTest.zip" target="_blank" rel="noopener noreferrer">Descargar Archivos<ExternalLinkIcon/></a></p>
 <h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalación</h2>
 <p>Copiar los siguiente en los siguiente directorio.</p>
 <ol>
 <li>
-<p>BunTest.java <code v-pre>com.tsoft.bot.frontend/utility</code></p>
+<p>BunTest.java <code v-pre>com.niubiz.bot.frontend/utility</code></p>
 </li>
 <li>
-<p>BunEnv.java <code v-pre>com.tsoft.bot.frontend/helpers</code></p>
+<p>BunEnv.java <code v-pre>com.niubiz.bot.frontend/helpers</code></p>
 </li>
 <li>
-<p>Hook.java <code v-pre>com.tsoft.bot.frontend/helpers</code> (Opcional)</p>
+<p>Hook.java <code v-pre>com.niubiz.bot.frontend/helpers</code> (Opcional)</p>
 </li>
 </ol>
 <p>Si no desea modificar su Hook por defecto de proyecto reemplace los siguientes métodos;</p>

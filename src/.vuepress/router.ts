@@ -8,7 +8,6 @@ export let sidebar =
                 'Overview',
                 'Empezar',
                 'Pruebas',
-                'base',
                 'Resultados',
                 'Actions',
                 'Plugins',
