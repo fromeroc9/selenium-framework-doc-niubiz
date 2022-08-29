@@ -1,6 +1,6 @@
 <template><div><h1 id="manual-de-uso" tabindex="-1"><a class="header-anchor" href="#manual-de-uso" aria-hidden="true">#</a> Manual de Uso</h1>
 <h2 id="estructura" tabindex="-1"><a class="header-anchor" href="#estructura" aria-hidden="true">#</a> Estructura</h2>
-<p>La estructura de carpeta está inspirada al <code v-pre>web-automation-framework</code> de Selenium. Aquellos QA de Tsoft que vieron el framework de selenium podran ver las similudes.</p>
+<p>La estructura de carpeta está inspirada al <code v-pre>framework-selenium</code> de Selenium. Aquellos QA de Tsoft que vieron el framework de selenium podran ver las similudes.</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>┌─ cypress
 │  ├─ e2e
 │  │  ├─ actions

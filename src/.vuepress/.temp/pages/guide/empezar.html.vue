@@ -4,14 +4,14 @@
 
 <span class="token function">git</span> clone https://<span class="token operator">&lt;</span>username<span class="token operator">></span>@bitbucket.org/VisaNet_TI/framework-selenium.git
 <span class="token comment"># access folder</span>
-<span class="token builtin class-name">cd</span> web-automation-framework
+<span class="token builtin class-name">cd</span> framework-selenium
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ejecucion-gui" tabindex="-1"><a class="header-anchor" href="#ejecucion-gui" aria-hidden="true">#</a> Ejecución GUI</h2>
 <p>Ejecución de pruebas a travez de una interfaz web.</p>
 <p>Podemos ejecuctar los diferentes escenario por separado o inicializar todo el feature para su ejecución.</p>
 <p><img src="/images/ejecucion/gui.png" alt="Ejecución"></p>
 <h2 id="ejecucion-cli" tabindex="-1"><a class="header-anchor" href="#ejecucion-cli" aria-hidden="true">#</a> Ejecución CLI</h2>
 <p>Similar que ejecutar selenium por GUI pero con comando en la terminal favorita</p>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">cd</span> web-automation-framework
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">cd</span> framework-selenium
 
 <span class="token comment"># To run scenarios with @debug1 and @debug2:</span>
 <span class="token comment"># Old version of Cucumber-jvm:</span>

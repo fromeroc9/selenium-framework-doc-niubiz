@@ -3,7 +3,7 @@
 <p>Vamos a utilizar la configuración de BunTest para guardar estos datos podemos apoyar con diferentes servicios Headless CMS o su propio desarrollo.</p>
 <p>BunTest fue probado con Strapi, Supabe, PocketBase.</p>
 <h2 id="requisitos" tabindex="-1"><a class="header-anchor" href="#requisitos" aria-hidden="true">#</a> Requisitos</h2>
-<p>Deben descargar los siguiente archivos para el proyecto <code v-pre>web-automation-framework</code></p>
+<p>Deben descargar los siguiente archivos para el proyecto <code v-pre>framework-selenium</code></p>
 <p>BunTest.java, BunEnv.java, Hook.java</p>
 <p><a href="https://fromeroc9.github.io/selenium-framework-doc-niubiz/compress/BunTest.zip" target="_blank" rel="noopener noreferrer">Descargar Archivos<ExternalLinkIcon/></a></p>
 <h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalación</h2>

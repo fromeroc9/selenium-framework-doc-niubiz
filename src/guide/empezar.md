@@ -6,7 +6,7 @@
 
 git clone https://<username>@bitbucket.org/VisaNet_TI/framework-selenium.git
 # access folder
-cd web-automation-framework
+cd framework-selenium
 ```
 
 ## Ejecución GUI
@@ -23,7 +23,7 @@ Podemos ejecuctar los diferentes escenario por separado o inicializar todo el fe
 Similar que ejecutar selenium por GUI pero con comando en la terminal favorita
 
 ```bash
-cd web-automation-framework
+cd framework-selenium
 
 # To run scenarios with @debug1 and @debug2:
 # Old version of Cucumber-jvm:

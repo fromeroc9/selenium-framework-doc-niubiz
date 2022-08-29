@@ -36,7 +36,7 @@
 <span class="token comment">#secuencial</span>
 npm-run-all -s cypress:run report
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="estructura-de-proyecto" tabindex="-1"><a class="header-anchor" href="#estructura-de-proyecto" aria-hidden="true">#</a> Estructura de Proyecto</h2>
-<p>La estructura de carpeta está inspirada al <code v-pre>web-automation-framework</code> de Selenium. Aquellos QA de Tsoft que vieron el framework de selenium podran ver las similudes.</p>
+<p>La estructura de carpeta está inspirada al <code v-pre>framework-selenium</code> de Selenium. Aquellos QA de Tsoft que vieron el framework de selenium podran ver las similudes.</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>┌─ cypress
 │  ├─ e2e
 │  │  ├─ actions
