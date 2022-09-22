@@ -151,8 +151,8 @@ Finalmente, los scripts estarán disponibles para las ejecuciones programadas o 
 <h2 id="administracion-de-script" tabindex="-1"><a class="header-anchor" href="#administracion-de-script" aria-hidden="true">#</a> Administración de Script</h2>
 <h3 id="acerca-del-repositorio" tabindex="-1"><a class="header-anchor" href="#acerca-del-repositorio" aria-hidden="true">#</a> Acerca del repositorio</h3>
 <h4 id="datos-del-repositorio" tabindex="-1"><a class="header-anchor" href="#datos-del-repositorio" aria-hidden="true">#</a> Datos del repositorio</h4>
-<p>Nombre Repositorio:    test-automation
-Acceso al repositorio: TBD</p>
+<p>Nombre Repositorio: framework-selenium</p>
+<p>Acceso al repositorio: https://bitbucket.org/VisaNet_TI/framework-selenium/src/master/</p>
 <h4 id="caracteristicas-del-repositorio" tabindex="-1"><a class="header-anchor" href="#caracteristicas-del-repositorio" aria-hidden="true">#</a> Características del repositorio</h4>
 <p>Existe solo un repositorio en donde almacena un proyecto java con la estructura maven. Este proyecto incluye escenarios para los diferentes aplicativos de Niubiz.</p>
 <ol>
